@@ -11,7 +11,7 @@ class Character
 
         while (true)
         {
-            Console.WriteLine("Choose your character type:");
+            Console.WriteLine("Choose your character type:\n");
             Console.WriteLine("1. Widow from the Red Room");
             Console.WriteLine("2. Soldier from Hydra");
 
@@ -55,7 +55,7 @@ class Character
     {
         while (true)
         {
-            Console.WriteLine("Choose your gender:");
+            Console.WriteLine("Choose your gender:\n");
             Console.WriteLine("1. Male");
             Console.WriteLine("2. Female");
             string genderChoice = Console.ReadLine();
@@ -79,7 +79,7 @@ class Character
     {
         while (true)
         {
-            Console.WriteLine("You can choose one superpower:");
+            Console.WriteLine("You can choose one superpower:\n");
             Console.WriteLine("1. Super Speed");
             Console.WriteLine("2. Telekinesis");
             Console.WriteLine("3. Telepathy (mess with people's heads)");
